@@ -106,9 +106,6 @@ GEM
     irb (1.8.1)
       rdoc
       reline (>= 0.3.8)
-    jbuilder (2.11.5)
-      actionview (>= 5.0.0)
-      activesupport (>= 5.0.0)
     jsonapi-serializer (2.2.0)
       activesupport (>= 4.2)
     launchy (2.5.2)
@@ -249,7 +246,6 @@ DEPENDENCIES
   debug
   faraday
   importmap-rails
-  jbuilder
   jsonapi-serializer
   launchy
   pg (~> 1.1)

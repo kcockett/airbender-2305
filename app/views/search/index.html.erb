@@ -1,4 +1,14 @@
 <h2><%= @nation %></h2>
 <p>
-  Total number of people in <%= @nation %>: X
+  Total number of people in <%= @nation %>: <%= @number_members %>
 </p>
+<ol>
+  <% @members.each do |member| %>
+    <li>
+      <%= member.image %><br />
+      Name: <%= member.name %><br />
+      Allies:<br />
+      Enemies:<br />
+      Affiliations:<br />
+      
+
