@@ -1,5 +1,5 @@
 require "rails_helper"
 
-RSpec.describe "AirbenderApiService" type: :service do
+RSpec.describe "AirbenderApiService", type: :service do
   #
 end

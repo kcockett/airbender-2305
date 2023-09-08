@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "Root Index page" type: :feature do
+RSpec.describe "Root Index page", type: :feature do
   describe "When I visit '/'" do
     it "* And I select 'Fire Nation' from the select field,
       * And I click 'Search for Members'
