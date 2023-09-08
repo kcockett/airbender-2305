@@ -14,8 +14,8 @@ RSpec.describe "Root Index page", type: :feature do
       * - Any affiliations that the member has" do
 
       visit root_path
-      select "Fire Nation", from: ".select-field"
-      click_button "Search for Members"
+      select "Fire Nation", from: "nation"
+      click_button "Search For Members"
 
       expect(current_path).to eq search_path
       expect(page).to have_content("Total number of people in Fire Nation")
